@@ -8,8 +8,10 @@ export VIRTUALENV_PYTHON=python3.11
 
 # NVM (homebrew) path
 export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh" # homebrew
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # homebrew
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # ubuntu
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # ubuntu
 
 # Bun path
 export BUN_INSTALL="$HOME/.bun"

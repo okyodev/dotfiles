@@ -44,7 +44,7 @@ const Card: React.FC<CardProps> = ({ user, isActive = false, onSelect }) => {
       className={cn(
         "relative flex items-center gap-4 p-4",
         isActive ? "bg-primary/10" : "bg-background",
-        expanded && "ring-2 ring-primary"
+        expanded && "ring-2 ring-primary",
       )}
       onClick={handleClick}
     >
