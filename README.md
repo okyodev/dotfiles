@@ -23,7 +23,7 @@ cd ~/dotfiles
 Supports macOS (Homebrew) and Linux (apt / pacman / dnf). The script:
 
 1. Detects the OS
-2. Installs `tmux`, `neovim`, `zsh`, `stow`, `starship`, `git`, `ripgrep`
+2. Installs `tmux`, `neovim`, `zsh`, `stow`, `starship`, `git`, `ripgrep`, `lazygit`
 3. Backs up any non-symlink configs already at the target paths
 4. Symlinks every package via GNU stow
 5. Sets zsh as the default login shell
