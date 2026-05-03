@@ -5,6 +5,7 @@ require("config.lazy")
 require("config.keymaps")
 
 -- colorscheme
+vim.opt.termguicolors = true
 vim.cmd("colorscheme retrolegends")
 vim.o.winborder = "single"
 
