@@ -1,0 +1,9 @@
+# nvim runtime junk (lazy-lock.json IS versioned on purpose)
+packages/nvim/.config/nvim/.netrwhist
+
+# secrets — never commit
+.env
+*.local
+
+# OS junk
+.DS_Store
